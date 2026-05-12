@@ -21,11 +21,11 @@ and interacting co-op with family or roommates.
 ```
 Intelliden/
 ├── research/           → Vlad
-├── personas/           → Gabi
+├── personas/           → Gebz
 ├── style-guide/        → Cosmin
 ├── sketches-flows/
 │   ├── mobile/         → Vlad
-│   ├── ar/             → Gabi
+│   ├── ar/             → Gebz
 │   └── smartwatch/     → Cosmin
 ├── prototypes/         → Everyone (Figma links)
 ├── video/              → Radu
