@@ -7,13 +7,13 @@
 - Any supporting research used to build the personas
 
 ## Personas
-| # | Name | Role | Primary Device |
-|---|------|------|---------------|
-| 1 | Sebastian Popa | Power User / Admin | Mobile/Tablet |
-| 2 | TBD | Casual Roommate | Smartwatch |
-| 3 | TBD | Spatial Explorer | AR Headset |
+| # | Name | Role | Primary Device | Type |
+|---|------|------|---------------|------|
+| 1 | Sebastian Popa | Power User / Admin | Mobile/Tablet | Primary |
+| 2 | Sara Guzell | Casual Roommate | Smartwatch | Secondary |
+| 3 | Rotaru Razvan | Spatial Explorer | AR Headset | Supplemental |
 
-## Each Persona Must Include
+## Each Persona Includes
 - Name, age, occupation, photo
 - Goals
 - Frustrations & pain points
@@ -23,5 +23,5 @@
 
 ## Status
 - [x] Persona 1 — Sebastian Popa
-- [ ] Persona 2
-- [ ] Persona 3
+- [x] Persona 2 — Sara Guzell
+- [x] Persona 3 — Rotaru Razvan
