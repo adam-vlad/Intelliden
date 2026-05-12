@@ -13,7 +13,7 @@ and interacting co-op with family or roommates.
 | Member | Main Tasks |
 |--------|-----------|
 | **Vlad** | Research (literature review + competitor analysis), Mobile/Tablet prototype, sketches & flows for Mobile |
-| **Gabi** | 3 Persona profiles, AR Headset prototype, sketches & flows for AR, repo structure |
+| **Gebz** | 3 Persona profiles, AR Headset prototype, sketches & flows for AR, repo structure |
 | **Cosmin** | Style guide (colors, fonts, icons), Smartwatch prototype, sketches & flows for Smartwatch |
 | **Radu** | User guide, video walkthrough, AI use statement |
 
@@ -21,11 +21,11 @@ and interacting co-op with family or roommates.
 ```
 Intelliden/
 ├── research/           → Vlad
-├── personas/           → Gabi
+├── personas/           → Gebz
 ├── style-guide/        → Cosmin
 ├── sketches-flows/
 │   ├── mobile/         → Vlad
-│   ├── ar/             → Gabi
+│   ├── ar/             → Gebz
 │   └── smartwatch/     → Cosmin
 ├── prototypes/         → Everyone (Figma links)
 ├── video/              → Radu
