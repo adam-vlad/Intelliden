@@ -1,0 +1,191 @@
+[
+  {
+    "id": "node-1778610809137",
+    "type": "node",
+    "screen": "Home AR View",
+    "actions": [
+      {
+        "id": "action-1778610809137",
+        "label": "Look at device",
+        "connections": [
+          {
+            "targetId": "node-1778610855180",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      },
+      {
+        "id": "action-1778610845837",
+        "label": "Open AR Menu",
+        "connections": [
+          {
+            "targetId": "node-1778610943226",
+            "fromPosition": "left",
+            "toPosition": "top"
+          }
+        ]
+      }
+    ],
+    "x": 339,
+    "y": 17
+  },
+  {
+    "id": "node-1778610855180",
+    "type": "node",
+    "screen": "Device Overlay",
+    "actions": [
+      {
+        "id": "action-1778610855180",
+        "label": "Adjust settings",
+        "connections": [
+          {
+            "targetId": "node-1778610896547",
+            "fromPosition": "left",
+            "toPosition": "top"
+          }
+        ]
+      },
+      {
+        "id": "action-1778610873958",
+        "label": "Dismiss",
+        "connections": [
+          {
+            "targetId": "node-1778610809137",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      },
+      {
+        "id": "action-1778610878274",
+        "label": "View details",
+        "connections": []
+      },
+      {
+        "id": "action-1778611903310",
+        "label": "Device Offline",
+        "connections": [
+          {
+            "targetId": "node-1778610979198",
+            "fromPosition": "right",
+            "toPosition": "right"
+          }
+        ]
+      }
+    ],
+    "x": 972,
+    "y": 7
+  },
+  {
+    "id": "node-1778610896547",
+    "type": "node",
+    "screen": "Adjust Setting",
+    "actions": [
+      {
+        "id": "action-1778610896547",
+        "label": "Confirm",
+        "connections": [
+          {
+            "targetId": "node-1778610925906",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      },
+      {
+        "id": "action-1778610914556",
+        "label": "Cancel",
+        "connections": [
+          {
+            "targetId": "node-1778610855180",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 687,
+    "y": 497
+  },
+  {
+    "id": "node-1778610925906",
+    "type": "node",
+    "screen": "Confirmation Feedback",
+    "actions": [
+      {
+        "id": "action-1778610925906",
+        "label": "Back to Home",
+        "connections": [
+          {
+            "targetId": "node-1778610809137",
+            "fromPosition": "right",
+            "toPosition": "right"
+          }
+        ]
+      }
+    ],
+    "x": 337,
+    "y": 484
+  },
+  {
+    "id": "node-1778610943226",
+    "type": "node",
+    "screen": "AR Menu",
+    "actions": [
+      {
+        "id": "action-1778610943226",
+        "label": "View all devices",
+        "connections": []
+      },
+      {
+        "id": "action-1778610965021",
+        "label": "Automations",
+        "connections": []
+      },
+      {
+        "id": "action-1778610970432",
+        "label": "Settings",
+        "connections": []
+      },
+      {
+        "id": "action-1778611770069",
+        "label": "Close Menu",
+        "connections": [
+          {
+            "targetId": "node-1778610809137",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 26,
+    "y": 282
+  },
+  {
+    "id": "node-1778610979198",
+    "type": "node",
+    "screen": "Error State",
+    "actions": [
+      {
+        "id": "action-1778610979198",
+        "label": "Dismiss",
+        "connections": [
+          {
+            "targetId": "node-1778610809137",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      },
+      {
+        "id": "action-1778610996321",
+        "label": "View details",
+        "connections": []
+      }
+    ],
+    "x": 1010,
+    "y": 449
+  }
+]
