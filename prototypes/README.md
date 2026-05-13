@@ -7,7 +7,7 @@
 |----------|------|-------|--------|
 | Mobile/Tablet | — | Vlad | [ ] |
 | AR Headset | https://solo-said-49234940.figma.site | Gebz | [x] |
-| Smartwatch | — | Cosmin | [ ] |
+| Smartwatch | (https://stood-hand-30126735.figma.site) | Cosmin | [X] |
 
 ## Requirements
 - Must be clickable through all main screens
