@@ -6,7 +6,7 @@
 | Platform | Link | Owner | Status |
 |----------|------|-------|--------|
 | Mobile/Tablet | — | Vlad | [ ] |
-| AR Headset | — | Gabi | [ ] |
+| AR Headset | https://solo-said-49234940.figma.site | Gebz | [x] |
 | Smartwatch | — | Cosmin | [ ] |
 
 ## Requirements
