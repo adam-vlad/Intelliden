@@ -5,8 +5,8 @@
 ## Figma Links
 | Platform | Link | Owner | Status |
 |----------|------|-------|--------|
-| Mobile/Tablet | — | Vlad | [ ] |
-| AR Headset | https://solo-said-49234940.figma.site | Gebz | [x] |
+| Mobile/Tablet | https://alive-lab-65083867.figma.site | Vlad | [X] |
+| AR Headset | https://solo-said-49234940.figma.site | Gebz | [X] |
 | Smartwatch | https://stood-hand-30126735.figma.site | Cosmin | [X] |
 
 ## Requirements
