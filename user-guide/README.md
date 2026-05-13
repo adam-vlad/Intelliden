@@ -4,7 +4,7 @@
 
 ## What goes here
 - Comprehensive user guide document (PDF)
-- Statement of AI Use
+- Statement of AI Use : https://docs.google.com/document/d/1Jj8BSN6WzPXDhzZHswsPi0-9vKvv1MOVGyM-HUOsmJk/edit?usp=sharing
 
 ## User Guide Must Cover
 - How to use the Mobile/Tablet app
