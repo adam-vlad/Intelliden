@@ -1,0 +1,164 @@
+[
+  {
+    "id": "node-1778704260302",
+    "type": "node",
+    "screen": " Home Dashboard",
+    "actions": [
+      {
+        "id": "action-1778704260302",
+        "label": "Apasă cardul Thermostat",
+        "connections": [
+          {
+            "targetId": "node-1778705057883",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      },
+      {
+        "id": "action-1778705026706",
+        "label": "Apasă butonul „View All\"",
+        "connections": []
+      },
+      {
+        "id": "action-1778705027697",
+        "label": "Apasă iconița Notifications",
+        "connections": [
+          {
+            "targetId": "node-1778705203647",
+            "fromPosition": "right",
+            "toPosition": "left"
+          },
+          {
+            "targetId": "node-1778705170647",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 32,
+    "y": 99
+  },
+  {
+    "id": "node-1778705057883",
+    "type": "node",
+    "screen": "Device Control – Thermostat",
+    "actions": [
+      {
+        "id": "action-1778705057883",
+        "label": "Apasă „+\" pentru a crește temperatura",
+        "connections": []
+      },
+      {
+        "id": "action-1778705116948",
+        "label": "Apasă „−\" pentru a scădea temperatura",
+        "connections": []
+      },
+      {
+        "id": "action-1778705123405",
+        "label": "Apasă „Automations\" din nav bar",
+        "connections": [
+          {
+            "targetId": "node-1778705136296",
+            "fromPosition": "right",
+            "toPosition": "top"
+          }
+        ]
+      }
+    ],
+    "x": 603,
+    "y": 69
+  },
+  {
+    "id": "node-1778705136296",
+    "type": "node",
+    "screen": "Automations & Gestures",
+    "actions": [
+      {
+        "id": "action-1778705136296",
+        "label": "Activează „Open blinds at sunrise\"",
+        "connections": []
+      },
+      {
+        "id": "action-1778705157613",
+        "label": "Apasă „+ Add Automation\"",
+        "connections": []
+      },
+      {
+        "id": "action-1778705162563",
+        "label": "Apasă „Home\" din nav bar",
+        "connections": [
+          {
+            "targetId": "node-1778704260302",
+            "fromPosition": "right",
+            "toPosition": "top"
+          }
+        ]
+      }
+    ],
+    "x": 507,
+    "y": 594
+  },
+  {
+    "id": "node-1778705170647",
+    "type": "node",
+    "screen": "Navigation Menu",
+    "actions": [
+      {
+        "id": "action-1778705170647",
+        "label": "Apasă „Devices\"",
+        "connections": [
+          {
+            "targetId": "node-1778704260302",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      },
+      {
+        "id": "action-1778705184748",
+        "label": "Apasă „Statistics\"",
+        "connections": []
+      },
+      {
+        "id": "action-1778705185251",
+        "label": "Apasă „Settings\"",
+        "connections": []
+      }
+    ],
+    "x": 1098,
+    "y": 556
+  },
+  {
+    "id": "node-1778705203647",
+    "type": "node",
+    "screen": "Notifications / Alerts",
+    "actions": [
+      {
+        "id": "action-1778705203647",
+        "label": "Apasă „View Camera\"",
+        "connections": [
+          {
+            "targetId": "node-1778705057883",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      },
+      {
+        "id": "action-1778705225339",
+        "label": "Apasă „Dismiss\"",
+        "connections": [
+          {
+            "targetId": "node-1778704260302",
+            "fromPosition": "left",
+            "toPosition": "top"
+          }
+        ]
+      }
+    ],
+    "x": 1164,
+    "y": 94
+  }
+]
